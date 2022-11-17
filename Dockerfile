@@ -1,4 +1,5 @@
-FROM anasty17/mltb:latest
+# FROM anasty17/mltb:latest
+FROM anasty17/mltb-azure:latest
 
 WORKDIR /usr/src/app
 RUN chmod 777 /usr/src/app
